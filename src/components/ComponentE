@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+
+class ComponentE extends Component {
+
+    constructor() {
+        super();
+        this.state={
+          parentName:'Parent'
+        }
+      }
+  render() {
+    return (
+      <h1>
+        <button>Component E</button>
+      </h1>
+    );
+  }
+}
+
+export default ComponentE;
